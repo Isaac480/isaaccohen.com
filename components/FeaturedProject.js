@@ -3,15 +3,6 @@ import { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
 import MyLottie from '../components/MyLottie';
 
-export default function Home() {
-  return (
-    <div>
-      <h1>Welcome to my website</h1>
-      <MyLottie />
-    </div>
-  );
-}
-
 export default function FeaturedProject(props) {
   const { project } = props
 
