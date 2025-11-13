@@ -9,7 +9,16 @@ import Pronunciation from '../components/Pronunciation'
 import Toast from '../components/Toast'
 import stripHtml from '../lib/strip-html'
 import items from '../data/about'
-import Lottie from 'lottie-react'
+import MyLottie from '../components/MyLottie';
+
+export default function Home() {
+  return (
+    <div>
+      <h1>Welcome to my site</h1>
+      <MyLottie />
+    </div>
+  );
+}
 import copyBioIcon from '../public/static/icons/copy-bio.json'
 import downloadIcon from '../public/static/icons/download.json'
 
